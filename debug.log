@@ -1,0 +1,1746 @@
+[16:50:28][pdx_localize.cpp:899]: LocalizeInit
+[16:50:28][systemsettings.cpp:299]: "default_settings_v1_file" is not defined in path.settings. Default "pdx_default_settings.json" will be used.
+[16:50:28][systemsettings.cpp:299]: "default_settings_file" is not defined in path.settings. Default "pdx_default_settings.txt" will be used.
+[16:50:28][pdx_text_settings.cpp:141]: [CPdxSettingsTextFile] "pdx_default_settings.txt" doesn't exist.
+[16:50:28][systemsettings.cpp:299]: "settings_v1_file" is not defined in path.settings. Default "pdx_settings.json" will be used.
+[16:50:28][systemsettings.cpp:299]: "settings_file" is not defined in path.settings. Default "pdx_settings.txt" will be used.
+[16:50:28][contextowner.cpp:695]: Universe: steam
+[16:50:28][gfx_dx11_master_context.cpp:164]: Adapter 0: NVIDIA GeForce GTX 1060 6GB (6052.00 MB)
+[16:50:28][gfx_dx11_master_context.cpp:164]: Adapter 1: Microsoft Basic Render Driver (0.00 MB)
+[16:50:28][gfx_dx11_master_context.cpp:164]: Selected adapter: NVIDIA GeForce GTX 1060 6GB (6052.00 MB)
+[16:50:28][gfx_dx11_master_context.cpp:311]: VendorId: 4318
+[16:50:28][gfx_dx11_master_context.cpp:312]: DeviceId: 7171
+[16:50:28][gfx_dx11_master_context.cpp:313]: SubSysId: 295639406
+[16:50:28][gfx_dx11_master_context.cpp:314]: Revision: 161
+[16:50:28][pdx_matchmaking.cpp:67]: Matchmaking Interface: Nakama
+[16:50:28][contextowner.cpp:777]: Initializing Gui Editor: 0.001258
+[16:50:28][pdx_pops_wrapper.cpp:605]: [POPS Wrapper] Attempting to login to POPS with auth token (state: Offline)
+[16:50:28][pdx_pops_login.cpp:665]: [POPS Login] Waiting for logging in
+[16:50:29][pdx_pops_wrapper.cpp:928]: [POPS Wrapper] Login result: LoggedIn (message: (null)). Running 3 callbacks
+[16:50:29][pdx_nakama_wrapper.cpp:450]: [PDX NAKAMA] Obtained the following user id: 01f2546c-24d0-4dcc-8bf4-60db5eab88e6 and session token 4694f003-2f7b-4b36-ae01-4166d14955f6
+[16:50:30][pdx_pops_wrapper.cpp:1102]: [POPS Wrapper] OnAccountGetDetailsCallback: success 
+[16:50:31][pdx_pops_wrapper.cpp:1064]: [POPS Wrapper] OnUpdateSocialProfileCallback: success 
+[16:50:31][pdx_pops_wrapper.cpp:1075]: [POPS Wrapper] Retrieved profile for 01f2546c-24d0-4dcc-8bf4-60db5eab88e6 (potter9090)
+[16:50:33][pdx_pops_login.cpp:678]: [POPS Login]: Waited for 5.005721 seconds, result: AwaitingCallback 
+[16:50:34][defines.cpp:169]: Define 'STRESS_MONTHLY_CHANGE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'PRESTIGE_FROM_DYNASTY_ON_MARRIAGE_FACTOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'PRESTIGE_FROM_DYNASTY_ON_BORN_FACTOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'CHARACTER_TRAVEL_TIME' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'DEVIATION_FALLOFF' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'MEN_AT_ARMS_COUNTER_MODIFICATION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'MINIMUM_MODIFIED_PARTICIPATION_TO_GET_PART_OF_GHW_POT' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'COUNCIL_MAX_SLOTS' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'MAX_POWER' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'THREAT_MAX_DIPLO_DISTANCE' defined in 'common/defines/ai/00_ai.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'BORDER_WIDTH' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'REGION_FADE_FAR' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'REGION_FADE_NEAR' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'PROVINCE_FADE_FAR' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'PROVINCE_FADE_NEAR' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'COLOR_SELECTION_REGION' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'COLOR_SELECTION_PROVINCE' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'COLOR_SELECTION_HIGHLIGHT' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'GRANT_TITLE_IN_LIST_COLOR' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:34][defines.cpp:169]: Define 'DECLARE_WAR_TARGET_EXTRA_VALUE' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:34][jomini_game_setup.cpp:134]: DLC:
+*
+Fashion of the Abbasid Court|dlc/dlc002_sp_day1/dlc002.dlc
+*
+Garments of the Holy Roman Empire|dlc/dlc001_preorder/dlc001.dlc
+*
+The Fate of Iberia|dlc/dlc005_fp2/dlc005.dlc
+*
+The Northern Lords|dlc/dlc003_fp1/dlc003.dlc
+*
+The Royal Court|dlc/dlc004_ep1/dlc004.dlc
+Mod:
+*P Total Warfare - Battle with an Army|mod/ugc_2217421068.mod
++OP Tenets .ver[More Religion Tenets Slots]|mod/ugc_2808594558.mod
+10-in-1 OP Traditions.fixed|mod/ugc_2790669835.mod
+A GRANDER Building Compatch|mod/ugc_2778057631.mod
+A New Sensible Family 2|mod/ugc_2752929426.mod
+Additional OP Dynasty Legacy Lines|mod/ugc_2806260516.mod
+Africa Plus|mod/ugc_2552371897.mod
+After Death|mod/ugc_2431942160.mod
+Asatru Holy Site Changes|mod/ugc_2804483368.mod
+Auto Build|mod/ugc_2761276165.mod
+Auto Repair Artifacts|mod/ugc_2765989585.mod
+Auto sell indulgences|mod/ugc_2225737157.mod
+BAP with More Tenets Slots|mod/ugc_2651166772.mod
+Balanced Buyable Building Slots|mod/ugc_2760960044.mod
+Beautiful Females|mod/ugc_2228828005.mod
+Better Buyable Building Slot + Infinite Building Slot|mod/ugc_2370708338.mod
+Better Character UI|mod/ugc_2222540784.mod
+Better Dynastic Legacies (Updated)|mod/ugc_2422346391.mod
+Better Executions|mod/ugc_2221339737.mod
+Better Executions Updated|mod/ugc_2429466948.mod
+Better UI Scaling|mod/ugc_2217509277.mod
+Blood of Old Valyria - Inheritable Purple Eyes Trait|mod/ugc_2238118575.mod
+Bloodlines|mod/ugc_2343590283.mod
+CFP + EPE Compatibility Patch|mod/ugc_2507220129.mod
+CK2 Style Colorful Education Traits|mod/ugc_2217865748.mod
+CK3 BR Edition|mod/ugc_2783991986.mod
+COW2-Rhomaioi Compatibility|mod/ugc_2221263188.mod
+Character UI Overhaul|mod/ugc_2519175282.mod
+Chosen Dynasty Trait (Cheat Mod)|mod/ugc_2751147177.mod
+Cities of Wonders 2 (for 1.6)|mod/ugc_2512278056.mod
+Clear Artifact Levels|mod/ugc_2748508571.mod
+Clear Notifications|mod/ugc_2261468688.mod
+Clerical Function+|mod/ugc_2266561008.mod
+CoW - Governments + Patch|mod/ugc_2666694140.mod
+CoW-MoreUnique Buildings no Faith required|mod/ugc_2398770364.mod
+CoW2-CFP Compatibility Patch|mod/ugc_2793230366.mod
+Community Flavor Pack|mod/ugc_2220098919.mod
+Community Name Packs|mod/ugc_2537667619.mod
+Convert Dynasty|mod/ugc_2436942901.mod
+Cooldown Manager|mod/ugc_2815667392.mod
+Councillor's experience trait|mod/ugc_2721974781.mod
+Court Marriage Situations|mod/ugc_2322286437.mod
+Court Positions Expanded|mod/ugc_2754449789.mod
+Court types unbounded|mod/ugc_2804856188.mod
+Custom Title Form of Address|mod/ugc_2653885896.mod
+Dead Religions Revived|mod/ugc_2220701065.mod
+Displayed Birth and Death Dates|mod/ugc_2228178763.mod
+Distribute Artifacts|mod/ugc_2752573001.mod
+Dynamic Holy Sites - Conquer, Sanctify, Exile|mod/ugc_2837748572.mod
+Dynastic Liberties|mod/ugc_2241081857.mod
+Dynasty Bloodlines|mod/ugc_2824611328.mod
+EPE-BAP Compatch|mod/ugc_2553823513.mod
+Easy Traditions|mod/ugc_2749448203.mod
+Enchanced Zoom|mod/ugc_2218799744.mod
+Ethnicities and Portraits Expanded|mod/ugc_2507209632.mod
+Extended Family Actions|mod/ugc_2430932902.mod
+Extended Outliner|mod/ugc_2219611817.mod
+Faith Icon Overhaul|mod/ugc_2241613056.mod
+Fantasy Men-at-Arms|mod/ugc_2299077738.mod
+Fullscreen Barbershop|mod/ugc_2220326926.mod
+Glory of Ancestors|mod/ugc_2465461826.mod
+Governments +|mod/ugc_2635869016.mod
+Governments + - Succession Expanded Compatibility Patch|mod/ugc_2650740223.mod
+Great Empire Wars Mechanic|mod/ugc_2688782754.mod
+Great Works|mod/ugc_2297319082.mod
+Harem Doctrines|mod/ugc_2221765598.mod
+Harem Doctrines Fix|mod/ugc_2433807482.mod
+Hellenism Religion Overpowered|mod/ugc_2782774914.mod
+Highlander Immortals - Upgradeable Immortality|mod/ugc_2439065137.mod
+Hiraeth - Dynasty Legacies Overhaul|mod/ugc_2697392271.mod
+Ibn Battuta's Legacy 2|mod/ugc_2416949291.mod
+Icons for Unique buildings a submod: "More Unique Buildings"|mod/ugc_2247359056.mod
+Immortality (Updated and Revised)|mod/ugc_2252368989.mod
+Immortality Improved|mod/ugc_2243652060.mod
+Imprison Loser (전쟁패자 포로로 만들기)|mod/ugc_2572429010.mod
+In My Humble Opinion|mod/ugc_2625307328.mod
+Inspirational|mod/ugc_2783743664.mod
+Invite To Court - More Modifiers|mod/ugc_2226700455.mod
+Join all the Wars|mod/ugc_2700867828.mod
+Know Your Agents|mod/ugc_2791376033.mod
+Legacy 1.4.* Updated [EN,RU]|mod/ugc_2455087906.mod
+Legendary Conqueror|mod/ugc_2704810852.mod
+Legendary Conqueror Patch|mod/ugc_2821151401.mod
+Lifespan Congenital Traits|mod/ugc_2692655730.mod
+Lord of the Kings|mod/ugc_2278479424.mod
+Lost Souls in Time and Space - Community Framework|mod/ugc_2395787959.mod
+Lost Souls-Isekai Campaign|mod/ugc_2835768265.mod
+LotR: Realms in Exile|mod/ugc_2291024373.mod
+Lover's Pox Curable|mod/ugc_2464663984.mod
+MHG + CFP Compatch|mod/ugc_2764329234.mod
+MHG + EPE Compatch|mod/ugc_2509797306.mod
+MRD + MFI Compatibility Patch|mod/ugc_2228415935.mod
+Mass Demand Conversion|mod/ugc_2753176859.mod
+MergeEmpires|mod/ugc_2355489331.mod
+Mistborn|mod/ugc_2248224969.mod
+Modifiable Feudal Contract|mod/ugc_2268387884.mod
+More Artifact Slots + Combine Artifacts + Upgrade Artifacts|mod/ugc_2774914093.mod
+More Dynasty Legacies - BREAK MY GUI EDITION|mod/ugc_2782747931.mod
+More Faith Icons_Updated|mod/ugc_2320290250.mod
+More Game Rules|mod/ugc_2216850785.mod
+More Holding Graphics|mod/ugc_2262523658.mod
+More Immersive Doctrines|mod/ugc_2386479107.mod
+More Men-At-Arms|mod/ugc_2641046754.mod
+More Religion Tenets Slots|mod/ugc_2218249327.mod
+More Religious Doctrines|mod/ugc_2221612003.mod
+More Religious Doctrines + More Religion Tenets Slots New New Patch|mod/ugc_2643685850.mod
+More Traditions|mod/ugc_2775238340.mod
+More Traits - Commander|mod/ugc_2430763812.mod
+More buildings|mod/ugc_2229800103.mod
+More tradition slots|mod/ugc_2781955325.mod
+More traditions|mod/ugc_2750863071.mod
+Nameplates|mod/ugc_2220762808.mod
+No Holy Sites Needed|mod/ugc_2831192883.mod
+No Industrious Cooldown|mod/ugc_2779339972.mod
+No Religious Requirement for UBP|mod/ugc_2525846743.mod
+Pantheon of the Gods|mod/ugc_2218562682.mod
+Pardon Hooks|mod/ugc_2252434082.mod
+Prevent Wandering Family|mod/ugc_2243263459.mod
+Princes of Darkness|mod/ugc_2216659254.mod
+Prisoner Transfer|mod/ugc_2221952570.mod
+Reincarnate The Dead|mod/ugc_2784504877.mod
+Religion Fixes|mod/ugc_2221172183.mod
+Religion customizable sins and virtues|mod/ugc_2229791349.mod
+Renaissance Era|mod/ugc_2616283652.mod
+Rename Characters and Dynasties|mod/ugc_2218710855.mod
+Reskin: Blood of Greek Gods|mod/ugc_2326719197.mod
+Reviving the Mammoths - Mammoth Men-at-Arms|mod/ugc_2456152238.mod
+Rhomaioi - A Byzantine Empire Mod|mod/ugc_2218592748.mod
+Roman Flavor|mod/ugc_2750660458.mod
+Same House Opinion|mod/ugc_2375040829.mod
+Saving Declining Dynasty Member & Head of Faith|mod/ugc_2271850688.mod
+Scrollable Lifestyle Window|mod/ugc_2236307152.mod
+Show Me Your Council|mod/ugc_2790980257.mod
+Show Me Your Court|mod/ugc_2796111001.mod
+Show More Traits - Better UI Mod Compatible Version|mod/ugc_2221322414.mod
+Skalla's War and Conquest|mod/ugc_2697817411.mod
+Social Relations Expanded (SRE)|mod/ugc_2825977309.mod
+Social Relations Expanded - UniUI|mod/ugc_2825974832.mod
+Spirit Traits|mod/ugc_2511942656.mod
+Stress Bar for All|mod/ugc_2790457557.mod
+Succession Expanded|mod/ugc_2650385452.mod
+Sue for Peace -Beta 6.3|mod/ugc_2322557383.mod
+Tech Era Date Begone|mod/ugc_2754422082.mod
+Temporal Excommunication|mod/ugc_2461764433.mod
+Tenets to Doctrines|mod/ugc_2226422353.mod
+The Arquebus|mod/ugc_2264174652.mod
+The Catholic Trinity|mod/ugc_2730456007.mod
+The Chosen Dynasty|mod/ugc_2260586450.mod
+The Fallen Eagle - 'Bread and Circuses Update'|mod/ugc_2243307127.mod
+Title Manager|mod/ugc_2436624088.mod
+Trade Goods|mod/ugc_2689783403.mod
+Traits: The Blood of greek Gods|mod/ugc_2226831895.mod
+True Power. Knight to Godhood|mod/ugc_2824217678.mod
+Unified UI|mod/ugc_2768734977.mod
+Unique Building Plus|mod/ugc_2447414615.mod
+Unit Pack Expanded|mod/ugc_2818979385.mod
+Unrestricted Dynasty Legacies|mod/ugc_2429337237.mod
+Upgrade House Banners|mod/ugc_2834421859.mod
+Useful Court Physicians|mod/ugc_2463831513.mod
+VIET Events - A Flavor and Immersion Event Mod|mod/ugc_2227658180.mod
+Vassals To Arms|mod/ugc_2535753142.mod
+Warhorse Trainers (Heavy Cav Building)|mod/ugc_2237455250.mod
+Way of Kings presents: Arti
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\common\Crusader Kings III\game\dlc\dlc004_ep1
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\common\Crusader Kings III\game\dlc\dlc003_fp1
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\common\Crusader Kings III\game\dlc\dlc005_fp2
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\common\Crusader Kings III\game\dlc\dlc001_preorder
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\common\Crusader Kings III\game\dlc\dlc002_sp_day1
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2220326926
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2220098919
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2507209632
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2507220129
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2512278056
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2793230366
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2447414615
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2525846743
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2370708338
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2316746754
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2322286437
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2355489331
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2436624088
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2641046754
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2456152238
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2461764433
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2804856188
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2463831513
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2464663984
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2268387884
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2721974781
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2754449789
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2783743664
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2216850785
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2218249327
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2229791349
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2808594558
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2750863071
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2775238340
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2790669835
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2375040829
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2806260516
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2754422082
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2429466948
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2430932902
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2625307328
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2753176859
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2262523658
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2509797306
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2764329234
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2791376033
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2818979385
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2824217678
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2824611328
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2752573001
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2653885896
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2748508571
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2511942656
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2226831895
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2326719197
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2221952570
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2220762808
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2465461826
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2219611817
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2261468688
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2616283652
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2243652060
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2238118575
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2692655730
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2221765598
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2433807482
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2455087906
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2750660458
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2750400439
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2704810852
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2821151401
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2697817411
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2688782754
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2774914093
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2654374260
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2225737157
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2765989585
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2782747931
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2761276165
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2837748572
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2264174652
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2299077738
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2229800103
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2237455250
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2778057631
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2519175282
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2834421859
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2815667392
+[16:50:34][virtualfilesystem_physfs.cpp:796]: Mounted Data: D:\Games\steamapps\workshop\content\1158310\2700867828
+[16:50:34][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/models'(.asset, , -1)
+[16:50:44][virtualfilesystem.cpp:328]: Starting pre-enumerating 'sound'(.audio2, , -1)
+[16:50:44][virtualfilesystem.cpp:328]: Starting pre-enumerating 'fonts'(.font, , -1)
+[16:50:44][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gui'(.gui, , -1)
+[16:50:44][virtualfilesystem.cpp:303]: Done enumerating 'sound'(.audio2, , -1) in 0.489 seconds
+[16:50:44][virtualfilesystem.cpp:303]: Done enumerating 'fonts'(.font, , -1) in 0.534 seconds
+[16:50:45][virtualfilesystem.cpp:303]: Done enumerating 'gui'(.gui, , -1) in 0.835 seconds
+[16:50:45][defines.cpp:169]: Define 'STRESS_MONTHLY_CHANGE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'PRESTIGE_FROM_DYNASTY_ON_MARRIAGE_FACTOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'PRESTIGE_FROM_DYNASTY_ON_BORN_FACTOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'CHARACTER_TRAVEL_TIME' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'DEVIATION_FALLOFF' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'MEN_AT_ARMS_COUNTER_MODIFICATION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'MINIMUM_MODIFIED_PARTICIPATION_TO_GET_PART_OF_GHW_POT' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'COUNCIL_MAX_SLOTS' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'MAX_POWER' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'SAME_CULTURE' defined in 'common/defines/skalla_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'DIFFERENT_CULTURE' defined in 'common/defines/skalla_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'SAME_DYNASTY' defined in 'common/defines/skalla_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'SHORT_REIGN_YEARS' defined in 'common/defines/skalla_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'PREDECESSOR_OPINION_SCALE_POSITIVE' defined in 'common/defines/skalla_defines.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'THREAT_MAX_DIPLO_DISTANCE' defined in 'common/defines/ai/00_ai.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'BORDER_WIDTH' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'REGION_FADE_FAR' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'REGION_FADE_NEAR' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'PROVINCE_FADE_FAR' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'PROVINCE_FADE_NEAR' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'COLOR_SELECTION_REGION' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'COLOR_SELECTION_PROVINCE' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'COLOR_SELECTION_HIGHLIGHT' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'GRANT_TITLE_IN_LIST_COLOR' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:45][defines.cpp:169]: Define 'DECLARE_WAR_TARGET_EXTRA_VALUE' defined in 'common/defines/graphic/00_graphics.txt' not specified. Maybe a define macro is missing
+[16:50:45][jomini_game_setup.cpp:157]: Starting checksum calculation
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/interface/illustrations/loading_screens'(.dds, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/interface/fronten'(.dds, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/script_values'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/scripted_effects'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/scripted_triggers'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/scripted_modifiers'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/scripted_lists'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/scripted_guis'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/scripted_rules'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/customizable_localization'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/ethnicities'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/genes'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/portraits/accessory_variations'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/portraits/accessories'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/portraits/portrait_animations'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/portraits/cameras'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/portraits/environments'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/portraits/portrait_modifiers'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/named_colors'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/coat_of_arms/coat_of_arms'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/coat_of_arms/template_lists'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/game_concepts'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/modifier_definition_formats'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'events'(.txt, , -1)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/province_terrain'(.txt, , -1)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/on_action'(.txt, , -1)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'history/characters'(.txt, , -1)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'history/province_mapping'(.txt, , -1)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'history/titles'(.txt, , -1)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'history/wars'(.txt, , -1)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'history/cultures'(.txt, , -1)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/scripted_relations'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/holdings'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/culture/cultures'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/vassal_contracts'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/governments'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/modifiers'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/dynasties'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/schemes'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/traits'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/focuses'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/lifestyles'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/lifestyle_perks'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/landed_titles'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/activities'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/character_interaction_categories'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/character_interactions'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/secret_types'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/men_at_arms_types'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/buildings'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/combat_effects'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/casus_belli_types'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/laws'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/terrain_types'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/bookmarks'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/council_positions'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/council_tasks'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/important_actions'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/decisions'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/religion/religion_families'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/religion/doctrines'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/religion/holy_sites'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/culture/eras'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/culture/innovations'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/suggestions'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/dynasty_legacies'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/dynasty_perks'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/bookmark_portraits'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/interface/illustrations/scripted_illustrations'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/messages'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/artifacts/slots'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/culture/pillars'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/culture/traditions'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'map_data/geographical_regions'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/inspirations'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/court_types'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/court_positions/types'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/court_positions/categories'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/casus_belli_groups'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/pool_character_selectors'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/scripted_character_templates'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'tests'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/tutorial_lessons'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/tutorial_lesson_chains'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/deathreasons'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/dynasty_houses'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/opinion_modifiers'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/story_cycles'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/hook_types'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/character_backgrounds'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/factions'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/nicknames'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/religion/religions'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/religion/fervor_modifiers'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/ai_war_stances'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/lease_contracts'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/succession_election'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/courtier_guest_management'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/flavorization'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/culture/name_equivalency'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/dynasty_house_mottos'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/dynasty_house_motto_inserts'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/dna_data'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/portraits/trait_portrait_modifiers'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/culture/name_lists'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/culture/aesthetics_bundles'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/culture/creation_names'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/scripted_costs'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/skins/hud_skins'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/court_amenities/'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/artifacts/templates'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/coat_of_arms/dynamic_definitions'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/court_scene/character_groups'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/court_scene/character_roles'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/artifacts/types'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/artifacts/visuals'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/artifacts/features'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/artifacts/feature_groups'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/achievements'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/combat_phase_events'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/scripted_animations'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/artifacts/blueprints'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/guest_system'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/struggle/struggles'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/struggle/catalysts'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'music'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/console_groups'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/event_pictures'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/event_themes'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/unit_assets'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'gfx/map/map_modes'(.txt, , 0)
+[16:50:45][virtualfilesystem.cpp:328]: Starting pre-enumerating 'common/playable_difficulty_infos'(.txt, , 0)
+[16:50:45][pdx_localize.cpp:926]: LocalizeShutdown
+[16:50:45][pdx_localize.cpp:899]: LocalizeInit
+[16:50:46][virtualfilesystem.cpp:303]: Done enumerating 'common/script_values'(.txt, , 0) in 0.991 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'common/scripted_modifiers'(.txt, , 0) in 0.188 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'gfx/interface/fronten'(.dds, , 0) in 1.192 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'gfx/interface/illustrations/loading_screens'(.dds, , 0) in 1.213 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'common/scripted_lists'(.txt, , 0) in 0.090 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'common/scripted_rules'(.txt, , 0) in 0.119 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'common/scripted_triggers'(.txt, , 0) in 1.433 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'common/scripted_guis'(.txt, , 0) in 0.326 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'common/scripted_effects'(.txt, , 0) in 1.584 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'common/customizable_localization'(.txt, , 0) in 0.388 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'common/genes'(.txt, , 0) in 0.242 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'gfx/portraits/portrait_animations'(.txt, , 0) in 0.282 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'gfx/portraits/cameras'(.txt, , 0) in 0.264 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'gfx/portraits/environments'(.txt, , 0) in 0.039 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'common/named_colors'(.txt, , 0) in 0.030 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'gfx/portraits/portrait_modifiers'(.txt, , 0) in 0.081 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'gfx/portraits/accessory_variations'(.txt, , 0) in 0.545 seconds
+[16:50:47][virtualfilesystem.cpp:303]: Done enumerating 'gfx/portraits/accessories'(.txt, , 0) in 0.515 seconds
+[16:50:48][virtualfilesystem.cpp:303]: Done enumerating 'common/game_concepts'(.txt, , 0) in 0.236 seconds
+[16:50:48][virtualfilesystem.cpp:303]: Done enumerating 'common/modifier_definition_formats'(.txt, , 0) in 0.217 seconds
+[16:50:48][virtualfilesystem.cpp:303]: Done enumerating 'common/province_terrain'(.txt, , -1) in 0.009 seconds
+[16:50:48][virtualfilesystem.cpp:303]: Done enumerating 'common/coat_of_arms/template_lists'(.txt, , 0) in 0.367 seconds
+[16:50:48][virtualfilesystem.cpp:303]: Done enumerating 'common/coat_of_arms/coat_of_arms'(.txt, , 0) in 0.560 seconds
+[16:50:48][virtualfilesystem.cpp:303]: Done enumerating 'history/province_mapping'(.txt, , -1) in 0.203 seconds
+[16:50:48][virtualfilesystem.cpp:303]: Done enumerating 'common/ethnicities'(.txt, , 0) in 1.721 seconds
+[16:50:48][virtualfilesystem.cpp:303]: Done enumerating 'history/wars'(.txt, , -1) in 0.001 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'history/characters'(.txt, , -1) in 0.886 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'history/titles'(.txt, , -1) in 0.505 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/scripted_relations'(.txt, , 0) in 0.011 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'history/cultures'(.txt, , -1) in 0.337 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/holdings'(.txt, , 0) in 0.124 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/vassal_contracts'(.txt, , 0) in 0.223 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/governments'(.txt, , 0) in 0.309 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/dynasties'(.txt, , 0) in 0.002 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/schemes'(.txt, , 0) in 0.036 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/traits'(.txt, , 0) in 0.171 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/focuses'(.txt, , 0) in 0.002 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/lifestyles'(.txt, , 0) in 0.002 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/lifestyle_perks'(.txt, , 0) in 0.057 seconds
+[16:50:49][virtualfilesystem.cpp:303]: Done enumerating 'common/culture/cultures'(.txt, , 0) in 0.707 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/activities'(.txt, , 0) in 0.148 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/landed_titles'(.txt, , 0) in 0.160 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/character_interaction_categories'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/secret_types'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/modifiers'(.txt, , 0) in 0.589 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/men_at_arms_types'(.txt, , 0) in 0.154 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/combat_effects'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/on_action'(.txt, , -1) in 2.004 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/casus_belli_types'(.txt, , 0) in 0.041 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/terrain_types'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/bookmarks'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/council_positions'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/buildings'(.txt, , 0) in 0.144 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/important_actions'(.txt, , 0) in 0.002 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/laws'(.txt, , 0) in 0.038 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/council_tasks'(.txt, , 0) in 0.128 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/character_interactions'(.txt, , 0) in 0.432 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/religion/religion_families'(.txt, , 0) in 0.224 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/religion/doctrines'(.txt, , 0) in 0.176 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/religion/holy_sites'(.txt, , 0) in 0.127 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/suggestions'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/dynasty_legacies'(.txt, , 0) in 0.025 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/dynasty_perks'(.txt, , 0) in 0.002 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/bookmark_portraits'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/culture/eras'(.txt, , 0) in 0.151 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/messages'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'gfx/interface/illustrations/scripted_illustrations'(.txt, , 0) in 0.026 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/artifacts/slots'(.txt, , 0) in 0.011 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/decisions'(.txt, , 0) in 0.413 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/culture/pillars'(.txt, , 0) in 0.007 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/inspirations'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/court_types'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/culture/innovations'(.txt, , 0) in 0.124 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/culture/traditions'(.txt, , 0) in 0.128 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/casus_belli_groups'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/pool_character_selectors'(.txt, , 0) in 0.026 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/scripted_character_templates'(.txt, , 0) in 0.021 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/court_positions/types'(.txt, , 0) in 0.191 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/court_positions/categories'(.txt, , 0) in 0.185 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/tutorial_lesson_chains'(.txt, , 0) in 0.002 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/deathreasons'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/dynasty_houses'(.txt, , 0) in 0.001 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'tests'(.txt, , 0) in 0.073 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'map_data/geographical_regions'(.txt, , 0) in 0.243 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/tutorial_lessons'(.txt, , 0) in 0.059 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/character_backgrounds'(.txt, , 0) in 0.082 seconds
+[16:50:50][virtualfilesystem.cpp:303]: Done enumerating 'common/hook_types'(.txt, , 0) in 0.092 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/story_cycles'(.txt, , 0) in 0.136 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'events'(.txt, , -1) in 2.853 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/nicknames'(.txt, , 0) in 0.128 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/factions'(.txt, , 0) in 0.129 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/religion/fervor_modifiers'(.txt, , 0) in 0.074 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/ai_war_stances'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/lease_contracts'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/courtier_guest_management'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/culture/name_equivalency'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/dynasty_house_mottos'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/dynasty_house_motto_inserts'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/succession_election'(.txt, , 0) in 0.035 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/dna_data'(.txt, , 0) in 0.037 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/culture/name_lists'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/culture/aesthetics_bundles'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/culture/creation_names'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/scripted_costs'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'gfx/skins/hud_skins'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/flavorization'(.txt, , 0) in 0.049 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/court_amenities/'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/artifacts/templates'(.txt, , 0) in 0.002 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/coat_of_arms/dynamic_definitions'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'gfx/portraits/trait_portrait_modifiers'(.txt, , 0) in 0.019 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/artifacts/types'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/artifacts/visuals'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/artifacts/features'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/artifacts/feature_groups'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/achievements'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/combat_phase_events'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/scripted_animations'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/artifacts/blueprints'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/guest_system'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/struggle/struggles'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/struggle/catalysts'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/opinion_modifiers'(.txt, , 0) in 0.351 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/console_groups'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/event_pictures'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/event_themes'(.txt, , 0) in 0.004 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/unit_assets'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/religion/religions'(.txt, , 0) in 0.196 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'music'(.txt, , 0) in 0.045 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'common/playable_difficulty_infos'(.txt, , 0) in 0.001 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'gfx/map/map_modes'(.txt, , 0) in 0.048 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'gfx/court_scene/character_groups'(.txt, , 0) in 0.121 seconds
+[16:50:51][virtualfilesystem.cpp:303]: Done enumerating 'gfx/court_scene/character_roles'(.txt, , 0) in 0.120 seconds
+[16:52:05][virtualfilesystem.cpp:303]: Done enumerating 'gfx/models'(.asset, , -1) in 91.168 seconds
+[16:52:24][pdx_localize.cpp:373]: Key 'TITLE_CUSTOMIZATION_CONFIRM_TITLE' defined in multiple files: 'localization/english/gui/coa_designer_l_english.yml', 'localization/english/replace/CTFA_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'TITLE_CUSTOMIZATION_CONFIRM_BODY' defined in multiple files: 'localization/english/gui/coa_designer_l_english.yml', 'localization/english/replace/CTFA_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'TITLE_NAME_FIELD' defined in multiple files: 'localization/english/gui/title_view_l_english.yml', 'localization/english/replace/CTFA_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'TITLE_ADJECTIVE_FIELD' defined in multiple files: 'localization/english/gui/title_view_l_english.yml', 'localization/english/replace/CTFA_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'TitleRelationToMe_Your_Title' defined in multiple files: 'localization/english/custom_localization/title_custom_loc_l_english.yml', 'localization/english/replace/CTFA_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'TitleRelationToMe_Title' defined in multiple files: 'localization/english/custom_localization/title_custom_loc_l_english.yml', 'localization/english/replace/CTFA_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'COA_TOOLTIP_NO_HOLDER' defined in multiple files: 'localization/english/gui/common_l_english.yml', 'localization/english/replace/CTFA_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'CHARACTER_LINE_OF_SUCCESSION_ENTRY' defined in multiple files: 'localization/english/gui/common_l_english.yml', 'localization/english/replace/CTFA_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'AI_PERSONALITY_ADJECTIVE_NOUN' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'AI_PERSONALITY_NEUTRAL' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'AI_PERSONALITY_TOOLTIP' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'AI_PERSONALITY_IS_PLAYER_TOOLTIP' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'honor_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'honor_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'honor_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'honor_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'honor_strong_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'honor_strong_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'honor_strong_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'honor_strong_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'greed_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'greed_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'greed_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'greed_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'greed_strong_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'greed_strong_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'greed_strong_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'greed_strong_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'rationality_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'rationality_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'rationality_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'rationality_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'rationality_strong_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'rationality_strong_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'rationality_strong_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'rationality_strong_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'boldness_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'boldness_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'boldness_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'boldness_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'boldness_strong_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'boldness_strong_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'boldness_strong_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'boldness_strong_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'zeal_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'zeal_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'zeal_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'zeal_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'zeal_strong_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'zeal_strong_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'zeal_strong_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'zeal_strong_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'vengefulness_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'vengefulness_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'vengefulness_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'vengefulness_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'vengefulness_strong_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'vengefulness_strong_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'vengefulness_strong_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'vengefulness_strong_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'compassion_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'compassion_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'compassion_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'compassion_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'compassion_strong_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'compassion_strong_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'compassion_strong_neg_noun' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'compassion_strong_neg_adj' defined in multiple files: 'localization/english/ai_personality_l_english.yml', 'localization/english/replace/ai_personality_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'commission_artifact_decision' defined in multiple files: 'localization/english/decisions_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'fund_inspiration.2080.a' defined in multiple files: 'localization/english/dlc/ep1/dlc_ep1_fund_inspiration_events_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'fund_inspiration.2080.b' defined in multiple files: 'localization/english/dlc/ep1/dlc_ep1_fund_inspiration_events_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'fund_inspiration.2080.success' defined in multiple files: 'localization/english/dlc/ep1/dlc_ep1_fund_inspiration_events_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'fund_inspiration.2080.failure' defined in multiple files: 'localization/english/dlc/ep1/dlc_ep1_fund_inspiration_events_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_0' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_1' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_2' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_3' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_4' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_5' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_6' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_7' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_8' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_9' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'custom_loc_dynasty_prestige_level_10' defined in multiple files: 'localization/english/custom_localization/dynasty_custom_loc_l_english.yml', 'localization/english/replace/inspirational_replace_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'action_can_assign_guardian_combined_group_description' defined in multiple files: 'localization/english/important_actions_l_english.yml', 'localization/replace/english/pc_extended_family_actions_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'action_can_assign_guardian_combined_unimportant' defined in multiple files: 'localization/english/important_actions_l_english.yml', 'localization/replace/english/pc_extended_family_actions_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'action_can_assign_guardian_unimportant' defined in multiple files: 'localization/english/important_actions_l_english.yml', 'localization/replace/english/pc_extended_family_actions_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'action_can_assign_guardian_HELP' defined in multiple files: 'localization/english/important_actions_l_english.yml', 'localization/replace/english/pc_extended_family_actions_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'action_close_family_can_marry_combined_group_name' defined in multiple files: 'localization/english/important_actions_l_english.yml', 'localization/replace/english/pc_extended_family_actions_l_english.yml'
+[16:52:24][pdx_localize.cpp:373]: Key 'action_close_family_can_marry_combined_group_description' defined in multiple files: 'localization/english/important_actions_l_english.yml', 'localization/replace/english/pc_extended_family_actions_l_english.yml'
+[16:52:27][pdx_nakama_wrapper.cpp:479]: [PDX NAKAMA] Authenticated successfully. Nakama User ID: 6200c820-9f25-4222-ae11-d7070551a7a5. Session: 4694f003-2f7b-4b36-ae01-4166d14955f6, Pops User: 01f2546c-24d0-4dcc-8bf4-60db5eab88e6
+[16:52:27][pdx_nakama_wrapper.cpp:480]: [PDX NAKAMA][PDX_NAKAMA_METADATA]user_id,6200c820-9f25-4222-ae11-d7070551a7a5
+[16:52:28][pdx_nakama_wrapper.cpp:1252]: [PDX NAKAMA] Socket onConnect.
+[16:52:28][pdx_nakama_wrapper.cpp:1281]: [PDX_NAKAMA] CNakamaClientListener::onConnect: Connection established outside the match and connection status callback is present, calling it.
+[16:52:28][pdx_nakama_wrapper.cpp:299]: [PDX_NAKAMA] Default ConnectionStatusChangeCallback called with status: Established
+[16:52:28][pdx_nakama_wrapper.cpp:1503]: [PDX NAKAMA] Socket onStatusPresence.
+[16:52:45][database_dependencies.cpp:427]: Database Node Init Time: CGameConceptTypeDatabase - 20556 ms - 20556 ms including dependencies
+[16:52:45][pdxassetutil.cpp:64]: ThreadedInitTextureLookup: gfx/models
+[16:52:49][pdxassetutil.cpp:72]: ThreadedInitTextureLookup found 16284 files
+[16:52:53][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-Regular.ttf
+[16:52:53][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-Italic.ttf
+[16:52:53][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-Bold.ttf
+[16:52:53][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-BoldItalic.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-ExtraBold.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Roboto_Mono/RobotoMono-Regular.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Roboto_Mono/RobotoMono-Bold.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Roboto_Mono/RobotoMono-Italic.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Roboto_Mono/RobotoMono-BoldItalic.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-SemiBold.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Noto_Sans_SC/NotoSansSC-Bold.otf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Korean_fontset/IropkeBatangM.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Noto_Sans_SC/NotoSansSC-Bold.otf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Korean_fontset/IBMPlexSansKR-Medium.otf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Noto_Sans_SC/NotoSansSC-Bold.otf
+[16:52:54][pdx_font.cpp:91]: Loading fonts/Korean_fontset/IropkeBatangB.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Gitan/GitanLatin-Regular.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-SemiBold.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Noto_Sans_SC/NotoSansSC-Medium.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Korean_fontset/IropkeBatangM.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Gitan/GitanLatin-Bold.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-Bold.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Noto_Sans_SC/NotoSansSC-Bold.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Korean_fontset/IropkeBatangB.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Gitan/GitanLatin-Italic.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Noto_Sans_SC/NotoSansSC-Light.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Korean_fontset/IBMPlexSansKR-Medium.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Gitan/GitanLatin-Bold-Italic.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Noto_Sans_SC/NotoSansSC-Bold.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Fondamento/Fondamento-Regular.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Noto_Sans_SC/NotoSansSC-Bold.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Korean_fontset/ON_YeossiB.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/mapfont/Paradox_King_Script.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/MonomakhUnicode/MonomakhUnicode.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Noto_Sans_SC/NotoSansSC-Medium.otf
+[16:52:55][pdx_font.cpp:91]: Loading fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf
+[16:52:56][jomini_social.cpp:18]: Created Jomini Social
+[16:52:58][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/defaults.gui"
+[16:52:58][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/defaults.gui" is complete
+[16:52:58][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/fonts.gui"
+[16:52:58][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/fonts.gui" is complete
+[16:52:58][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/frontend_loadingscreen.gui"
+[16:52:58][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/frontend_loadingscreen.gui" is complete
+[16:52:58][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/labels.gui"
+[16:52:58][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/labels.gui" is complete
+[16:52:58][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/textformatting.gui"
+[16:52:58][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/textformatting.gui" is complete
+[16:52:58][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/tooltip.gui"
+[16:52:58][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/tooltip.gui" is complete
+[16:53:03][interfaceapplication.cpp:570]: Start loading meshes
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/0_renamer_window_character.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/0_renamer_window_character.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/0_window_character_bddates.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/0_window_character_bddates.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/ASSL_spoken_language.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/ASSL_spoken_language.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_templates.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_templates.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_templates_UniUI_compat.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_templates_UniUI_compat.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_types_StA_compat.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_types_StA_compat.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_types_UniUI_compat.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_types_UniUI_compat.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_types_coa_title_overrides.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_types_coa_title_overrides.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_types_edit_foa.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_types_edit_foa.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_types_interaction_templates_overrides.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_types_interaction_templates_overrides.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_types_title_customization_window.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_types_title_customization_window.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_types_value_breakdown.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_types_value_breakdown.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_types_value_breakdown_overrides.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_types_value_breakdown_overrides.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_types_window_character.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_types_window_character.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CTFA_types_window_title.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CTFA_types_window_title.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CUIO_cooltip.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CUIO_cooltip.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/CUIO_portraits.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/CUIO_portraits.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/FSB_on_load.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/FSB_on_load.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/IMHO_portraits.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/IMHO_portraits.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/IMHO_types.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/IMHO_types.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/NYA_invite_button.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/NYA_invite_button.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/SMYCP_player_court_button.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/SMYCP_player_court_button.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/SMYC_council_button.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/SMYC_council_button.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/SNfA_stress_bar.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/SNfA_stress_bar.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/TM_template.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/TM_template.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/artifact_details_view.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/artifact_details_view.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/barber_bgs.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/barber_bgs.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/barber_portraits.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/barber_portraits.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/cfp_barber_bgs.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/cfp_barber_bgs.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/cfp_load.gui"
+[16:53:03][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/cfp_load.gui" is complete
+[16:53:03][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/cfp_texticons.gui"
+[16:53:04][interfaceapplication.cpp:173]: Waiting for loading meshes
+[16:53:04][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/cfp_texticons.gui" is complete
+[16:53:04][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/clear_notifications.gui"
+[16:53:04][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/clear_notifications.gui" is complete
+[16:53:04][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/console.gui"
+[16:53:04][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/console.gui" is complete
+[16:53:04][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/credits_window.gui"
+[16:53:04][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/credits_window.gui" is complete
+[16:53:04][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/dynasty_customization_window.gui"
+[16:53:04][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/dynasty_customization_window.gui" is complete
+[16:53:04][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/dynasty_house_customization_window.gui"
+[16:53:04][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/dynasty_house_customization_window.gui" is complete
+[16:53:04][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/epe_text_icons.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/epe_text_icons.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/fe_templates.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/fe_templates.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/frontend_bookmarks.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/frontend_bookmarks.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/frontend_credits.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/frontend_credits.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/frontend_ingame_menu.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/frontend_ingame_menu.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/frontend_load.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/frontend_load.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/frontend_loadingscreen_savegame.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/frontend_loadingscreen_savegame.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/frontend_main.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/frontend_main.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/frontend_mp_game_setup.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/frontend_mp_game_setup.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/game_rules.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/game_rules.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/hud.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/hud.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/hud_bottom.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/hud_bottom.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/hud_notification_templates.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/hud_notification_templates.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/hud_outliner.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/hud_outliner.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/hud_sidebars.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/hud_sidebars.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/hud_top.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/hud_top.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_blackmail.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_blackmail.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_call_ally.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_call_ally.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_call_ally_notification_window.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_call_ally_notification_window.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_concubine.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_concubine.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_confirmation.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_confirmation.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_council_task.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_council_task.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_create_claimant_faction.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_create_claimant_faction.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_declare_war.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_declare_war.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_grant_titles.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_grant_titles.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_interfere_in_war.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_interfere_in_war.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_interfere_in_war_notification.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_interfere_in_war_notification.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_marriage.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_marriage.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_marriage_notification_window.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_marriage_notification_window.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_menu_window.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_menu_window.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_modify_vassal_window.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_modify_vassal_window.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_notification_window.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_notification_window.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_revoke_title.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_revoke_title.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_templates.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_templates.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/interaction_transfer_vassal.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/interaction_transfer_vassal.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/inventory_view.gui"
+[16:53:19][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/inventory_view.gui" is complete
+[16:53:19][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/ket_texticons.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/ket_texticons.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_icon_layer.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_icon_layer.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_icon_layer_templates.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_icon_layer_templates.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/multiplayer_config.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/multiplayer_config.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/multiplayer_frontend.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/multiplayer_frontend.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/multiplayer_frontend_types.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/multiplayer_frontend_types.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/multiplayer_lobby.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/multiplayer_lobby.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/multiplayer_serverbrowser.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/multiplayer_serverbrowser.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/multiplayer_setup.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/multiplayer_setup.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/multiplayer_types.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/multiplayer_types.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/open_barber.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/open_barber.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/portrait_editor_window.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/portrait_editor_window.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/profiler.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/profiler.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/reforge_artifact_window.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/reforge_artifact_window.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/save_game_analyzer.gui"
+[16:53:21][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/save_game_analyzer.gui" is complete
+[16:53:21][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/texticons.gui"
+[16:53:24][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/texticons.gui" is complete
+[16:53:24][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/texticons_religion.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/texticons_religion.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/title_customization_window.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/title_customization_window.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tool_property_randomizable_types.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tool_property_randomizable_types.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tool_property_ranged_types.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tool_property_ranged_types.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/toolslayout.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/toolslayout.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/toolspropertytypes.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/toolspropertytypes.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/toolstypes.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/toolstypes.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tutorial_highlight.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tutorial_highlight.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/types_FB.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/types_FB.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/view_court_position_appoint.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/view_court_position_appoint.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/weight_muscles_types.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/weight_muscles_types.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_activity.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_activity.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_add_tradition.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_add_tradition.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_army.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_army.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_army_select_commander.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_army_select_commander.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_artifact_helper.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_artifact_helper.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_battle_summary.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_battle_summary.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_character.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_character.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_character_filter.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_character_filter.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_character_finder.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_character_finder.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_character_focus.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_character_focus.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_character_lifestyle.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_character_lifestyle.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_combat.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_combat.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_council.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_council.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_council_potential_councillor.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_council_potential_councillor.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_county_view.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_county_view.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_court.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_court.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_court_amenities.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_court_amenities.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_court_events.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_court_events.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_court_grandeur.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_court_grandeur.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_court_positions.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_court_positions.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_court_scene_editor.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_court_scene_editor.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_court_types.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_court_types.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_culture.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_culture.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_decisions.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_decisions.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_decisions_detail.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_decisions_detail.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_diverge_culture.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_diverge_culture.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_dynasty.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_dynasty.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_dynasty_house.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_dynasty_house.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_dynasty_house_members.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_dynasty_house_members.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_dynasty_tree.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_dynasty_tree.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_event.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_event.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_factions.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_factions.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_faith.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_faith.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_faith_conversion.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_faith_conversion.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_faith_creation.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_faith_creation.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_find_title.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_find_title.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_find_vassal.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_find_vassal.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_ghw.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_ghw.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_ghw_change_target.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_ghw_change_target.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_hired_troops_detail.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_hired_troops_detail.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_hybridize_culture.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_hybridize_culture.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_inspirations.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_inspirations.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_intrigue.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_intrigue.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_intrigue_potential_faction_member.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_intrigue_potential_faction_member.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_intrigue_potential_scheme_agent.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_intrigue_potential_scheme_agent.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_kill_list.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_kill_list.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_knights.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_knights.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_languages.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_languages.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_lease_out_baronies.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_lease_out_baronies.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_levy.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_levy.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_lineage.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_lineage.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_menatarms.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_menatarms.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_menatarms_type_view.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_menatarms_type_view.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_military.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_military.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_my_realm.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_my_realm.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_portrait_customization.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_portrait_customization.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_raid.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_raid.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_rally_points.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_rally_points.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_replace_pillar.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_replace_pillar.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_resign_confirmation.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_resign_confirmation.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_royal_court.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_royal_court.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_royal_court_screenshot.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_royal_court_screenshot.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_ruler_designer.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_ruler_designer.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_save_game.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_save_game.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_siege.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_siege.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_struggle.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_struggle.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_struggle_involvement.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_struggle_involvement.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_succession_change_law.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_succession_change_law.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_succession_designate_heir.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_succession_designate_heir.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_succession_event.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_succession_event.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_title.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_title.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_title_add_law.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_title_add_law.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_title_claimants.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_title_claimants.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_title_election.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_title_election.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_title_history.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_title_history.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_tutorial.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_tutorial.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_war_declared_overview.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_war_declared_overview.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_war_overview.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_war_overview.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/window_war_results.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/window_war_results.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/POPS/pops_base_types.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/POPS/pops_base_types.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/POPS/pops_create_account_window.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/POPS/pops_create_account_window.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/POPS/pops_create_account_window_instanced.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/POPS/pops_create_account_window_instanced.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/POPS/pops_error_message_box.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/POPS/pops_error_message_box.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/POPS/pops_error_message_box_instanced.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/POPS/pops_error_message_box_instanced.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/POPS/pops_login_window.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/POPS/pops_login_window.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/POPS/pops_login_window_instanced.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/POPS/pops_login_window_instanced.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/POPS/pops_status_widget.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/POPS/pops_status_widget.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/achievements/jomini_achievements_types.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/achievements/jomini_achievements_types.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/achievements/jomini_achievements_window.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/achievements/jomini_achievements_window.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/achievements/popup.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/achievements/popup.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/console.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/console.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/curve_editor.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/curve_editor.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/drawcmds_viewer.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/drawcmds_viewer.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/screenshot.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/screenshot.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/settings.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/settings.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/texture_importer.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/texture_importer.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/texture_list.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/texture_list.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/texture_viewer.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/texture_viewer.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/thread_analyze.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/thread_analyze.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/tools_gui_bundle_properties.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/tools_gui_bundle_properties.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/tools_gui_custom_properties.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/tools_gui_custom_properties.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/tools_gui_dialogs.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/tools_gui_dialogs.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/tools_gui_dialogs_properties.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/tools_gui_dialogs_properties.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/tools_gui_search.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/tools_gui_search.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/applicationutils/tweaker.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/applicationutils/tweaker.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/debug/ai_war_coordinator_watch_window.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/debug/ai_war_coordinator_watch_window.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/debug/animation_test_window.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/debug/animation_test_window.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/debug/debug_menus.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/debug/debug_menus.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/debug/debug_tutorial_window.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/debug/debug_tutorial_window.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/debug/test_gui.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/debug/test_gui.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/debug/window_component_library.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/debug/window_component_library.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/debug/window_watch.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/debug/window_watch.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/debug/window_watch_ai.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/debug/window_watch_ai.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/debug/window_watch_character_pool.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/debug/window_watch_character_pool.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/decision_view_widgets/decision_view_widget_commission_artifact.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/decision_view_widgets/decision_view_widget_commission_artifact.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/decision_view_widgets/decision_view_widget_cow_convert_holding.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/decision_view_widgets/decision_view_widget_cow_convert_holding.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/decision_view_widgets/decision_view_widget_create_holy_order.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/decision_view_widgets/decision_view_widget_create_holy_order.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/decision_view_widgets/decision_view_widget_decision_option_list_controller.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/decision_view_widgets/decision_view_widget_decision_option_list_controller.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/decision_view_widgets/decision_view_widget_pay_homage.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/decision_view_widgets/decision_view_widget_pay_homage.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/decision_view_widgets/decision_view_widget_petition_liege.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/decision_view_widgets/decision_view_widget_petition_liege.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/entity_editor/entity_editor.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/entity_editor/entity_editor.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/entity_editor/entity_editor_player.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/entity_editor/entity_editor_player.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/entity_editor/entity_editor_properties_tab.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/entity_editor/entity_editor_properties_tab.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/entity_editor/entity_event_editor.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/entity_editor/entity_event_editor.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/event_window_widgets/enter_barber_text.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/event_window_widgets/enter_barber_text.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/event_window_widgets/event_window_widget_enter_text.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/event_window_widgets/event_window_widget_enter_text.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/event_window_widgets/event_window_widget_event_chain_progress.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/event_window_widgets/event_window_widget_event_chain_progress.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/event_window_widgets/event_window_widget_name_child.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/event_window_widgets/event_window_widget_name_child.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/event_window_widgets/event_window_widget_scheme.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/event_window_widgets/event_window_widget_scheme.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/event_window_widgets/event_window_widget_stress.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/event_window_widgets/event_window_widget_stress.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/event_window_widgets/event_window_widget_struggle_info.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/event_window_widgets/event_window_widget_struggle_info.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/gui_animation/gui_animation_properties.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/gui_animation/gui_animation_properties.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/gui_animation/gui_animation_timeline.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/gui_animation/gui_animation_timeline.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/gui_editor/gui_editor.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/gui_editor/gui_editor.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/gui_editor/gui_editor_datatypes.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/gui_editor/gui_editor_datatypes.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/gui_editor/gui_editor_outliner.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/gui_editor/gui_editor_outliner.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/gui_editor/gui_editor_properties.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/gui_editor/gui_editor_properties.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/gui_editor/gui_editor_settings.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/gui_editor/gui_editor_settings.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/gui_editor/gui_editor_toolbar.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/gui_editor/gui_editor_toolbar.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/jomini/basetextformatting.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/jomini/basetextformatting.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/jomini/core.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/jomini/core.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/jomini/credits/credits_base.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/jomini/credits/credits_base.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/jomini/encyclopedia/jomini_encyclopedia.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/jomini/encyclopedia/jomini_encyclopedia.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/log_viewer/log_viewer.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/log_viewer/log_viewer.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/brush_settings_widget.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/brush_settings_widget.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/detail_data_dockable.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/detail_data_dockable.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/dockable_map_mode_selector.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/dockable_map_mode_selector.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/export_tool.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/export_tool.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/eyedropper.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/eyedropper.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/heightmap_painter.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/heightmap_painter.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/heightmap_resolution.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/heightmap_resolution.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/import_tool.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/import_tool.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/map_content.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/map_content.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/map_editor_defaults.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/map_editor_defaults.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/map_object_painter.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/map_object_painter.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/mapcontent_editor.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/mapcontent_editor.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/mapeditor.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/mapeditor.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/mapobjects.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/mapobjects.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/mapobjects_mapcontent.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/mapobjects_mapcontent.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/mask_painter.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/mask_painter.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/mask_painter_map_content.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/mask_painter_map_content.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/material_browser.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/material_browser.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/material_brush.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/material_brush.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/materials_list.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/materials_list.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/materialsetter.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/materialsetter.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/preview_mask.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/preview_mask.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/smart_brush.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/smart_brush.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/spline_adjustment_tool.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/spline_adjustment_tool.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/spline_inspector_dockable.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/spline_inspector_dockable.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/spline_river_tool.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/spline_river_tool.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/spline_strip_tool.gui"
+[16:53:26][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/spline_strip_tool.gui" is complete
+[16:53:26][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/spline_tools_map_content.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/spline_tools_map_content.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/spline_viewport.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/spline_viewport.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/map_editor/spline_visibility_widget.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/map_editor/spline_visibility_widget.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/node_editor/graph_panel.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/node_editor/graph_panel.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/node_editor/group_node_window.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/node_editor/group_node_window.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/node_editor/node_editor.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/node_editor/node_editor.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/node_editor/search_list_window.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/node_editor/search_list_window.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/node_editor/viewport.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/node_editor/viewport.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/notifications/jomini_message.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/notifications/jomini_message.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/notifications/notification_overlay.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/notifications/notification_overlay.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/object_explorer/common.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/object_explorer/common.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/object_explorer/common_inspector.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/object_explorer/common_inspector.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/object_explorer/object_browser.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/object_explorer/object_browser.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/object_explorer/object_inspector.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/object_explorer/object_inspector.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/object_explorer/scope_debug_inspector.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/object_explorer/scope_debug_inspector.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/object_explorer/scope_object_provider.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/object_explorer/scope_object_provider.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/object_explorer/script_runner_inspector.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/object_explorer/script_runner_inspector.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/object_explorer/variable_inspector.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/object_explorer/variable_inspector.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/object_explorer/variable_list_inspector.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/object_explorer/variable_list_inspector.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/particle_editor/particle_editor_userdata_dialog.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/particle_editor/particle_editor_userdata_dialog.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/particle_editor/particle_nodes.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/particle_editor/particle_nodes.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/defaults.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/defaults.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/fonts.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/fonts.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/frontend_loadingscreen.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/frontend_loadingscreen.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/labels.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/labels.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/textformatting.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/textformatting.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/preload/tooltip.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/preload/tooltip.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/settings/setting_types.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/settings/setting_types.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/settings/settings.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/settings/settings.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/animation.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/animation.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/backgrounds.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/backgrounds.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/buttons.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/buttons.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/buttons_icons.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/buttons_icons.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/coa_designer.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/coa_designer.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/coat_of_arms.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/coat_of_arms.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/color_picker.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/color_picker.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/colors.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/colors.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/cooltip.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/cooltip.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/dialogs.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/dialogs.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/edit_boxes.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/edit_boxes.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/icons.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/icons.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/lines.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/lines.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/lists.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/lists.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/mapmodes.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/mapmodes.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/misc_components.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/misc_components.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/portraits.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/portraits.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/progressbars.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/progressbars.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/sounds.gui"
+[16:53:27][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/sounds.gui" is complete
+[16:53:27][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/texticons_religion.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/texticons_religion.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/texticons_trigger.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/texticons_trigger.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/value_breakdown.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/value_breakdown.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/shared/windows.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/shared/windows.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/add_friend_window.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/add_friend_window.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/add_friend_window_base.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/add_friend_window_base.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/chat_window.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/chat_window.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/chat_window_base.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/chat_window_base.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/create_social_profile_window.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/create_social_profile_window.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/create_social_profile_window_base.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/create_social_profile_window_base.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/friend_list_window.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/friend_list_window.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/friend_list_window_base.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/friend_list_window_base.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/remove_friend_confirm_window.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/remove_friend_confirm_window.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/remove_friend_confirm_window_base.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/remove_friend_confirm_window_base.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/social_base_types.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/social_base_types.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/social_chat_notification_window.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/social_chat_notification_window.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/social_chat_notification_window_base.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/social_chat_notification_window_base.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/social/social_widget.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/social/social_widget.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/backgrounds.gui"
+[16:53:32][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/backgrounds.gui" is complete
+[16:53:32][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/dockable_layout_manager.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/dockable_layout_manager.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/dropdown.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/dropdown.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/foldouts.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/foldouts.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/gfx_skin_editor.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/gfx_skin_editor.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/gruvbox_colors.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/gruvbox_colors.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/helper.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/helper.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/indents.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/indents.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/notifications.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/notifications.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/save_dialog.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/save_dialog.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/slider.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/slider.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/table.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/table.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/tool_options.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/tool_options.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/toolbox.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/toolbox.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/tools/tools_style.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/tools/tools_style.gui" is complete
+[16:53:33][pdx_gui_assetfactory.cpp:744]: [LoadAssetsGUI] Loading "gui/undo_history_viewer/undo_history_viewer.gui"
+[16:53:33][pdx_gui_assetfactory.cpp:753]: [LoadAssetsGUI] Loading of "gui/undo_history_viewer/undo_history_viewer.gui" is complete
+[16:59:41][interfaceapplication.cpp:173]: Loading meshes done
+[17:03:01][database_dependencies.cpp:427]: Database Node Init Time: CJominiNotificationTypeDatabase - 101 ms - 101 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CJominiNamedValueDatabase - 7979 ms - 7979 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: NJominiScriptArgumentHelper::SDatabaseDependencies - 0 ms - 0 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: NDatabase::SDynamicEffectsAndTriggersDependency - 0 ms - 2120 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CJominiScriptedEffectTemplateDatabase - 15794 ms - 22226 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CJominiScriptedTriggerTemplateDatabase - 6432 ms - 6432 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CJominiScriptedModifierTemplateDatabase - 2419 ms - 2419 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CJominiScriptedListTemplateDatabase - 15 ms - 15 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CJominiScriptedGuiDatabase - 841 ms - 841 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: NJominiScriptSystem::SScriptDependency - 0 ms - 24660 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CJominiScriptedRuleDatabase - 590 ms - 590 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CJominiCustomTextDatabase - 6628 ms - 6628 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: NJominiScriptSystem::SScriptDependencyWithoutDBDependencies - 0 ms - 7979 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: NJominiEffectLocalization::CEffectLocalizationDatabase - 2606 ms - 2606 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: NJominiTriggerLocalization::CTriggerLocalizationDatabase - 5092 ms - 5092 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CPortraitAgePresetDatabase - 9 ms - 9 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CPortraitDecalDatabase - 9 ms - 9 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CPortraitDecalAtlasDatabase - 117 ms - 117 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CGeneDatabase - 3281 ms - 3416 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CEthnicityDatabase - 95297 ms - 98578 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CAccessoryVariationDatabase - 81783 ms - 81783 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CPortraitAccessoryDatabase - 2829 ms - 6110 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CPortraitAnimationDatabase - 743 ms - 6217 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CPortraitModifierDatabase - 5474 ms - 8755 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CPortraitEnvironmentDatabase - 7059 ms - 7059 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CPortraitCameraDatabase - 531 ms - 531 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CGameRuleDatabase - 767 ms - 883 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CGameRuleSettingDatabase - 116 ms - 116 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CEventManager - 16840 ms - 17583 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: COnActionDataBase - 5719 ms - 22559 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CNamedColorDatabase - 164 ms - 164 ms including dependencies
+[17:03:02][database_dependencies.cpp:427]: Database Node Init Time: CCoatOfArmsTemplateListsDatabase - 10658 ms - 10822 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CCoatOfArmsScriptDatabase - 1493 ms - 12315 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CHistoryDatabase - 0 ms - 1493 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CProvinceTerrainDatabase - 448 ms - 494 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CTerrainTypeDatabase - 46 ms - 246 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: NModifier::SDynamicModifierDependency - 0 ms - 1640 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: SDynamicModifiersForReligionsDependency - 0 ms - 1070 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CReligionFamilyDatabase - 385 ms - 385 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CReligionTemplateDatabase - 1148 ms - 12170 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CFaithTemplateDatabase - 107 ms - 107 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: SDynamicModifiersForCultureTraitsDependency - 0 ms - 2830 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CCultureDatabase - 1070 ms - 100593 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: SDynamicModifiersForTerrainAndGovernmentTypeDependency - 0 ms - 2336 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CMenAtArmsTypeDatabase - 2557 ms - 2603 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CGovernmentTypeDatabase - 227 ms - 984 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CSchemeTypeDatabase - 1150 ms - 1150 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CHoldingTypeDatabase - 593 ms - 593 ms including dependencies
+[17:03:04][database_dependencies.cpp:427]: Database Node Init Time: CLifestyleDatabase - 514 ms - 514 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: CGeographicalRegionDatabase - 79 ms - 79 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: CDynastyLegacyDatabase - 1240 ms - 1240 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: CScriptedRelationDatabase - 366 ms - 366 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: NCulture::SCultureTechDatabaseDependency - 0 ms - 13092 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: CBuildingDatabase - 3058 ms - 4800 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: CDecisionTypeDatabase - 5157 ms - 5157 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: CCasusBelliTypeDatabase - 1714 ms - 1891 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: CLawGroupDatabase - 606 ms - 1614 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: CLawDatabase - 0 ms - 1008 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: NCulture::SCultureTraitDatabaseDependency - 0 ms - 2101 ms including dependencies
+[17:03:05][database_dependencies.cpp:427]: Database Node Init Time: CCulturePillarDatabase - 810 ms - 810 ms including dependencies
+[17:03:07][layered_icon.cpp:89]: tradition_khadga_puja had icon changed due to uniqueness
+[17:03:07][layered_icon.cpp:89]: tradition_roman_legacy had icon changed due to uniqueness
+[17:03:08][layered_icon.cpp:89]: tradition_agrarian had icon changed due to uniqueness
+[17:03:08][layered_icon.cpp:89]: tradition_sacred_mountains had icon changed due to uniqueness
+[17:03:08][layered_icon.cpp:89]: tradition_sacred_groves had icon changed due to uniqueness
+[17:03:08][layered_icon.cpp:89]: tradition_merciful_blindings had icon changed due to uniqueness
+[17:03:08][layered_icon.cpp:89]: tradition_historians had icon changed due to uniqueness
+[17:03:08][layered_icon.cpp:89]: tradition_battlefield_heroism had icon changed due to uniqueness
+[17:03:08][layered_icon.cpp:89]: tradition_roman_succession had icon changed due to uniqueness
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CCultureTraditionDatabase - 1291 ms - 1291 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: NScriptRules::SNamedValuesSetup - 0 ms - 7979 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CCultureNameListDatabase - 2733 ms - 4226 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CVassalContractTypeDatabase - 564 ms - 564 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CStaticModifierDatabase - 4267 ms - 5034 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CDynastyTemplateDatabase - 353 ms - 529 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CDynastyHouseTemplateDatabase - 176 ms - 176 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CTraitDatabase - 2097 ms - 4450 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: COpinionModifierDatabase - 2307 ms - 2307 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CFocusTypeDatabase - 330 ms - 844 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CLifestylePerkDatabase - 1194 ms - 8740 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CFaithDoctrineGroupDatabase - 7032 ms - 7032 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CLandedTitleTemplateDatabase - 359 ms - 3256 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CActivityTypeDatabase - 1079 ms - 1079 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CCharacterInteractionCategoryDatabase - 61 ms - 61 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CCharacterInteractionDatabase - 6129 ms - 7340 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CSecretTypeDatabase - 171 ms - 171 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CCombatEffectDatabase - 36 ms - 36 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CCasusBelliGroupDatabase - 177 ms - 177 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CPoolCharacterSelectorDatabase - 423 ms - 428 ms including dependencies
+[17:03:08][database_dependencies.cpp:427]: Database Node Init Time: CSuccessionElectionTypeDatabase - 585 ms - 585 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CBookmarkDatabase - 110 ms - 17016 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CBookmarkPortraitDatabase - 10873 ms - 19628 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCouncilPositionDatabase - 98 ms - 521 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCouncilTaskTypeDatabase - 856 ms - 1229 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CDynastyPerkDatabase - 275 ms - 6169 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CImportantActionTypeDatabase - 1327 ms - 1327 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CFaithDoctrineDatabase - 0 ms - 0 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CFaithHolySiteDatabase - 2005 ms - 2364 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCultureEraTypeDatabase - 45 ms - 45 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCultureInnovationTypeDatabase - 723 ms - 847 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CSuggestionTypeDatabase - 535 ms - 535 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CIllustrationTypeDatabase - 384 ms - 384 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CPlayerMessageTypeDatabase - 198 ms - 198 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CInventorySlotTypeDatabase - 93 ms - 93 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CInspirationTypeDatabase - 279 ms - 279 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCourtAmenitiesSettingDatabase - 0 ms - 0 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCourtTypeDatabase - 1102 ms - 1102 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCourtPositionTypesDatabase - 234 ms - 234 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCourtPositionCategoryDatabase - 0 ms - 0 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCharacterBackgroundTypeDatabase - 5 ms - 5 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CScriptedCharacterTemplateDatabase - 2161 ms - 2161 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CScriptedTestDatabase - 1622 ms - 1622 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CTutorialLessonDatabase - 416 ms - 529 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CTutorialLessonChainDatabase - 113 ms - 113 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CDeathReasonDatabase - 299 ms - 299 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CStoryCycleDatabase - 1359 ms - 1359 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CHookTypeDatabase - 271 ms - 271 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CFactionTypeDatabase - 564 ms - 564 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CNicknameDatabase - 297 ms - 297 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CFaithFervorModifierDatabase - 119 ms - 119 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CAIWarStanceDatabase - 730 ms - 730 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CLeaseContractTypeDatabase - 123 ms - 943 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CManagedCourtierGuestTypeDatabase - 213 ms - 213 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CFlavorizationDatabase - 255 ms - 2798 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCultureNameEquivalencyDatabase - 106 ms - 1176 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CDynastyHouseMottoFormatDatabase - 50 ms - 100 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CDynastyHouseMottoFormatInsertDatabase - 50 ms - 50 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CDnaDataDatabase - 3339 ms - 6620 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CTraitPortraitModifierDatabase - 0 ms - 13357 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CTraitPortraitModifierGroupDatabase - 569 ms - 569 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCultureAestheticsBundleDatabase - 90 ms - 2823 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCultureCreationNameDatabase - 233 ms - 233 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CScriptedCostDatabase - 164 ms - 8143 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CHUDSkinDatabase - 28 ms - 28 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCourtAmenitiesCategoryDatabase - 58 ms - 58 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CArtifactScriptedTemplateDatabase - 217 ms - 217 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CDynamicCoatOfArmsDatabase - 170 ms - 529 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCourtSceneGroupDatabase - 294 ms - 294 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCourtSceneRoleDatabase - 307 ms - 601 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CArtifactTypeDatabase - 355 ms - 968 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CArtifactFeatureGroupDatabase - 613 ms - 613 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CArtifactVisualTypeDatabase - 695 ms - 695 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CArtifactFeatureDatabase - 162 ms - 775 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CAchievementsDatabase - 770 ms - 770 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCombatPhaseEventTypeDatabase - 166 ms - 166 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CScriptedAnimationsDatabase - 180 ms - 180 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CArtifactBlueprintDatabase - 160 ms - 377 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CGuestSystemDatabase - 103 ms - 103 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CStruggleTypeDatabase - 551 ms - 1807 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CStrugglePhaseTypeDatabase - 0 ms - 5227 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CStruggleCatalystTypeDatabase - 70 ms - 70 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CJominiLineDatabase - 3608 ms - 3608 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: NJominiMap::CMapObjectDatabase - 3155 ms - 3155 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CConsoleGroupDatabase - 428 ms - 428 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CEventBackgroundDatabase - 153 ms - 153 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CEventThemeDatabase - 110 ms - 110 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CMapModeDatabase - 180 ms - 180 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CStaticModifierIconDatabase - 6967 ms - 11234 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CMenAtArmsTypeIconDatabase - 4988 ms - 7545 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CMenAtArmsTypeHorizontalImageDatabase - 5248 ms - 7805 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CMenAtArmsTypeVerticalImageDatabase - 8703 ms - 11260 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCombatEffectIconDatabase - 1235 ms - 1317 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CBuildingIconDatabase - 7204 ms - 10262 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CHoldingTypeTabIconDatabase - 1514 ms - 2107 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCouncilTaskTypeIconDatabase - 371 ms - 1227 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CActivityTypeIconDatabase - 318 ms - 1397 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CActivityTypeBackgroundDatabase - 573 ms - 1652 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CImportantActionTypeIconDatabase - 2037 ms - 3364 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CSuggestionTypeIconDatabase - 161 ms - 696 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CDecisionTypeIconDatabase - 2822 ms - 7979 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CFaithDoctrineIconDatabase - 14878 ms - 21910 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CFaithDoctrineGroupIconDatabase - 694 ms - 7726 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCultureEraIllustrationDatabase - 347 ms - 392 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCultureEraFrameDatabase - 398 ms - 443 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CUnitAssetDatabase - 250 ms - 1320 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CFactionTypeIconDatabase - 493 ms - 1057 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CTerrainIconDatabase - 688 ms - 734 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CTerrainTypeIllustrationDatabase - 554 ms - 600 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CLawIconDatabase - 696 ms - 1302 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CGovernmentTypeIconDatabase - 72 ms - 299 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CGovernmentRealmShieldMaskDatabase - 232 ms - 459 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CGovernmentRealmShieldFrameDatabase - 1321 ms - 1548 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CPlayableDifficultyInfoDatabase - 42 ms - 42 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CPerkIconDatabase - 1357 ms - 2551 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CFocusIconDatabase - 1380 ms - 1710 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CLifestyleIconDatabase - 740 ms - 1254 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CBigLifestyleIconDatabase - 138 ms - 652 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CLifestyleBackgroundDatabase - 1638 ms - 2152 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CDynastyLegacyIconDatabase - 2647 ms - 3887 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CDynastyLegacyTrackIconDatabase - 2334 ms - 3574 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCasusBelliTypeIconDatabase - 723 ms - 2437 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CTraitIconDatabase - 9703 ms - 11800 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCharacterInteractionIconDatabase - 9556 ms - 15685 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCharacterInteractionCategoryIconDatabase - 36 ms - 97 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCharacterInteractionCategoryBackgroundIconDatabase - 709 ms - 770 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCharacterInteractionAlertIconDatabase - 1696 ms - 7825 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CBookmarkButtonIconDatabase - 376 ms - 486 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CBookmarkButtonIconBigDatabase - 345 ms - 455 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CSecretTypeIconDatabase - 174 ms - 345 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CPlayerMessageTypeIconDatabase - 3284 ms - 3482 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCulturePillarIconDatabase - 964 ms - 1774 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CInventorySlotTypeIconDatabase - 324 ms - 417 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CInspirationTypeIconDatabase - 805 ms - 1084 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CSchemeTypeIconDatabase - 53 ms - 1203 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCourtPositionTypeBackgroundDatabase - 298 ms - 532 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCourtSceneCultureDatabase - 235 ms - 235 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCoatOfArmsDesignerPatternDatabase - 768 ms - 768 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCoatOfArmsColorPaletteDatabase - 146 ms - 146 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCoatOfArmsDesignerEmblemLayoutDatabase - 159 ms - 1652 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCoatOfArmsDesignerEmblemTextureDatabase - 1538 ms - 1538 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CCourtAmenitiesIconDatabase - 841 ms - 899 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CStrugglePhaseTypeIconDatabase - 24 ms - 575 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CStruggleTypeIconDatabase - 24 ms - 575 ms including dependencies
+[17:03:09][database_dependencies.cpp:427]: Database Node Init Time: CMapModeIconDatabase - 1207 ms - 1387 ms including dependencies
+[17:03:12][database_dependencies.cpp:427]: Database Node Init Time: CJominiMainThemeDatabase - 344 ms - 344 ms including dependencies
+[17:03:12][database_dependencies.cpp:427]: Database Node Init Time: CJominiInGameMusicDatabase - 381 ms - 381 ms including dependencies
+[17:03:54][history.cpp:1155]: Start loading of history
+[17:04:27][gameapplication.cpp:693]: Setting idler 'Frontend' with NO init options[17:04:34][pdx_online_telemetry.cpp:29]: [telemetry] quality:custom
+[17:04:34][pdx_online_telemetry.cpp:29]: [telemetry] shadowmap_resolution:4096x4096
+[17:04:34][pdx_online_telemetry.cpp:29]: [telemetry] texture_quality:ultra
+[17:04:34][pdx_online_telemetry.cpp:47]: [telemetry] bloom_enabled:1
+[17:04:34][pdx_online_telemetry.cpp:29]: [telemetry] anti_aliasing:MSAAx2
+[17:04:34][pdx_online_telemetry.cpp:29]: [telemetry] scale:1
+[17:04:35][history.cpp:1194]: End loading of history
+[17:04:54][main.cpp:552]: Total startup duration: 866.306525 seconds
+[17:04:54][pdx_pops_wrapper.cpp:521]: CPopsWrapper::Update: AwaitingCallback -> LoggedIn
+[17:04:54][pdx_pops_login.cpp:687]: [POPS Login] Login Succeeded
+[17:04:54][player.cpp:153]: CJominiPlayers:::DeleteAllPlayers - #0 players
+[17:04:54][gameapplication.cpp:693]: Setting idler 'Load Save' with init options[17:04:56][portraitmanager.cpp:910]: Initializing portrait color palettes.
+[17:05:15][gameapplication.cpp:693]: Setting idler 'In Game' with init options[17:05:53][jomini_mapobject_manager.cpp:2947]: CMapObjectManager::GetVisibleObjects: invalid camera index 0 requested.
+[17:05:53][pdx_gui_animation_datatype_valuehelpers.h:158]: Trying to trigger an animation with glow_alpha for a widget which has no glow
+[17:17:28][jomini_effect_impl.cpp:436]:  file: events/single_combat_events.txt line: 7886: single combat variable error-check
+[17:17:28][effectimpl.cpp:914]: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+Root: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+
+Saved event targets:
+actor: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+recipient: Character Ubert Lowborn of  (Internal ID 16834437) [16834437]
+secondary_actor: Character null [4294967295]
+secondary_recipient: Character Ubert Lowborn of  (Internal ID 16834437) [16834437]
+sc_initiator: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+sc_attacker: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+sc_defender: Character Ubert Lowborn of  (Internal ID 16834437) [16834437]
+fatality: Flag no [6806]
+fixed: Flag no [6806]
+locale: Flag army_camp [6358]
+follow_up_event: Flag culture_tradition_events.0001 [18519]
+invalidation_event: Flag perk_interaction.0102 [18517]
+myself: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+my_foe: Character Ubert Lowborn of  (Internal ID 16834437) [16834437]
+sc_defender_last_move: Flag nut_em [6673]
+sc_attacker_last_move: Flag enthusiastic_onslaught [6668]
+
+[17:17:28][jomini_effect_impl.cpp:436]:  file: events/single_combat_events.txt line: 7886: single combat variable error-check
+[17:17:28][effectimpl.cpp:914]: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+Root: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+
+Saved event targets:
+actor: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+recipient: Character Ubert Lowborn of  (Internal ID 16834437) [16834437]
+secondary_actor: Character null [4294967295]
+secondary_recipient: Character Ubert Lowborn of  (Internal ID 16834437) [16834437]
+sc_initiator: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+sc_attacker: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+sc_defender: Character Ubert Lowborn of  (Internal ID 16834437) [16834437]
+fatality: Flag no [6806]
+fixed: Flag no [6806]
+locale: Flag army_camp [6358]
+follow_up_event: Flag culture_tradition_events.0001 [18519]
+invalidation_event: Flag perk_interaction.0102 [18517]
+myself: Character Artau d'Al-Ahqaf of c_ahqaf (Internal ID 16789364) [16789364]
+my_foe: Character Ubert Lowborn of  (Internal ID 16834437) [16834437]
+sc_defender_last_move: Flag special_fallback [6706]
+sc_attacker_last_move: Flag special_fallback [6706]
+

@@ -1,0 +1,13 @@
+[16:50:27][game_setup.cpp:68]: Exe Git Version: release/1.6.1 : 164d9aa1235
+[16:50:27][game_setup.cpp:69]: Build Timestamp: 2022-06-26 17:21:51 +0000 long hash: 164d9aa12357311eb957456e886f1baac2d26fba
+[16:50:28][systemsettings.cpp:179]: CPU Model: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+[16:50:28][systemsettings.cpp:180]: CPU Speed: 3408MHz
+[16:50:28][systemsettings.cpp:181]: CPU Physical Cores: 4
+[16:50:28][systemsettings.cpp:182]: CPU Logical Cores: 8
+[16:50:28][systemsettings.cpp:183]: System Memory: 16316
+[16:50:28][systemsettings.cpp:184]: OS: Windows 10 x86_64
+[16:50:28][systemsettings.cpp:185]: OS Language: pt
+[16:50:28][contextowner.cpp:829]: GPU Name: NVIDIA GeForce GTX 1060 6GB
+[16:50:28][contextowner.cpp:830]: GPU Vendor: nVidia
+[16:50:28][contextowner.cpp:831]: GPU Id: 7171
+[16:50:28][contextowner.cpp:832]: GPU Dedicated Memory: 6052
